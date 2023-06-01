@@ -1,0 +1,8 @@
+There are two types of relative units
+- Relative to font-size
+ - em and rem (and many other less common ones)
+- Relative to the viewport
+ - vw, vh, vmin, vmax
+
+
+

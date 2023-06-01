@@ -1,0 +1,3 @@
+Percentages are mainly used for widths, are pretty easy to understand
+
+- Relative to their parent (except on height, where things get weird).
