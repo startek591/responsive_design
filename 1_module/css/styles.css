@@ -1,0 +1,51 @@
+/* Change pixel to percentages */
+/* Example */
+.container {
+  width: 50%; /* 50 percent relative to its parent*/
+}
+
+/* Controlling the width of images */
+/*
+ Only set the width of a image with width or height -- never both
+ */
+ /* Example */
+img {
+  width: 100%;
+}
+
+/* min-width and max-width */
+/* Lock into play at a certain width */
+/* Example */
+.container {
+  width: 90%;
+  max-width: 620px; /* never gets bigger */
+  border: 2px solid  magenta;
+  margin: 0 auto;
+}
+
+/* em */ 
+/* relative the font-size of the parent */
+/* 
+  when using them on font-size of an element both, it can create
+  a cascading effect.
+*/
+/* Example */
+ul {
+  font-size: 1em;
+}
+
+/* rem */
+/* relative to the root of our document */
+/* Example */
+ul {
+  font-size: 1rem;
+}
+
+/* Picking which one to decide between em and rem */
+/* 
+  font-size = rem;
+  padding and margin = em; 
+  widths = em or perecentage;
+*/
+
+

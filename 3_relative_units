@@ -1,6 +1,9 @@
 There are two types of relative units
 - Relative to font-size
  - em and rem (and many other less common ones)
+ - em are relative to their  parent's font-size 
+ - Font-size is an inherited property, so if you don't delcare it anywhere, it's getting it from the body (or the default, which is normally 16px)
+ 
 - Relative to the viewport
  - vw, vh, vmin, vmax
 
