@@ -1,0 +1,31 @@
+/* 
+  The basic of flexbox - elements normally have a display:
+  block or a display: inline as a default from the browser
+
+  Block elements stack one top of the each other
+  - div, header, footer, main , etc.
+  - h1 -> h6
+  - p
+
+  Inline elements stay within the flow of what's around them
+  - a 
+  - strong
+  - em 
+  - span
+
+  -- We can change this behavior by setting the display property
+  -- to flex on the parent element.
+
+  Example:
+  .parent {
+    display: flex;
+ */
+
+ img {
+  max-width: 100%; /* Too prevent the image from expanding from its natural size*/
+ }
+
+ 
+
+
+
